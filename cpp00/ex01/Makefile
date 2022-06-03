@@ -7,7 +7,7 @@ CFLAGS = -std=c++98 -Wall -Wextra -Werror
 RM = rm
 RMFLAGS = -rf
 
-SRCS_DIR = ./srcs
+SRCS_DIR = ./
 SRCS = PhoneBook.cpp		\
 	   Contact.cpp			\
 	   main.cpp
