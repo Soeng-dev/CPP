@@ -1,5 +1,5 @@
 
-NAME = megaphone
+NAME = phoneBook
 
 CC = g++
 CFLAGS = -std=c++98 -Wall -Wextra -Werror 
@@ -7,8 +7,10 @@ CFLAGS = -std=c++98 -Wall -Wextra -Werror
 RM = rm
 RMFLAGS = -rf
 
-SRCS_DIR = ./
-SRCS = $(SRCS_DIR)/megaphone.cpp
+SRCS_DIR = ./srcs
+SRCS = PhoneBook.cpp		\
+	   Contact.cpp			\
+	   main.cpp
 
 OBJS_DIR = ./objs
 OBJS = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:.cpp=.o)))
@@ -29,7 +31,7 @@ re : fclean all
 $(OBJS_DIR) :
 	@mkdir $(OBJS_DIR)
 
-$(OBJS_DIR)/%.o : %.cpp | $(OBJS_DIR)
+$(OBJS_DIR)/%.o : $(SRCS_DIR)/%.cpp | $(OBJS_DIR)
 	@$(CC) $(CFLAGS) -c $< -o $@
 
 $(NAME) : $(OBJS)
