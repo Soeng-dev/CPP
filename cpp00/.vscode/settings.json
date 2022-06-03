@@ -8,6 +8,7 @@
         "system_error": "cpp",
         "typeinfo": "cpp",
         "cstring": "cpp",
-        "limits": "cpp"
+        "limits": "cpp",
+        "ctime": "cpp"
     }
 }
