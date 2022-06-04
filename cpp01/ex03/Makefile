@@ -1,17 +1,18 @@
 
-NAME = zombies
+NAME = exe 
 
 CC = g++
-CFLAGS = -std=c++98 -Wall -Wextra -Werror  
+CFLAGS = -std=c++98 -Wall -Wextra -Werror 
 
 RM = rm
 RMFLAGS = -rf
 
 SRCS_DIR = ./
-SRCS = Zombie.cpp		\
-	   main.cpp			\
-	   newZombie.cpp	\
-	   randomChump.cpp
+SRCS = Human.cpp			\
+	   HumanA.cpp			\
+	   HumanB.cpp			\
+	   main.cpp				\
+	   Weapon.cpp
 
 OBJS_DIR = ./objs
 OBJS = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:.cpp=.o)))
