@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun  4 17:53:35 2022
+# Make data base, printed on Sat Jun  4 18:06:20 2022
 
 # Variables
 
@@ -29,7 +29,7 @@ VSCODE_LOG_NATIVE = false
 # automatic
 @F = $(notdir $@)
 # makefile
-CURDIR := /mnt/c/Users/82106/42/subject/cpp/cpp00
+CURDIR := /mnt/c/Users/82106/42/subject/cpp
 # makefile
 SHELL = /bin/sh
 # environment
@@ -55,7 +55,7 @@ PATH = /home/jkl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-be109756-90d0-4ec7-be34-efa6e8fb0d58.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d0dfbcf4-d07d-40ee-b6ca-c53a1dbc32d7.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -67,7 +67,7 @@ DISPLAY = 172.20.16.1:0
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /mnt/c/Users/82106/42/subject/cpp/cpp00
+PWD = /mnt/c/Users/82106/42/subject/cpp
 # default
 .LOADED := 
 # environment
@@ -81,7 +81,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = jkl
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -159,7 +159,7 @@ WSL_DISTRO_NAME = Ubuntu
 
 # Directories
 
-# . (device 44, inode 20266198323223537): 6 files, no impossibilities.
+# . (device 44, inode 14636698788996649): 6 files, no impossibilities.
 
 # 6 files, no impossibilities in 1 directories.
 
@@ -211,12 +211,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 113 B / avg = 8 B
-# current buf: size = 8162 B / used = 113 B / count = 14 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 14 / storage = 115 B / avg = 8 B
+# current buf: size = 8162 B / used = 115 B / count = 14 / avg = 8 B
 
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Sat Jun  4 17:53:35 2022
+# Finished Make data base on Sat Jun  4 18:06:20 2022
 
  
