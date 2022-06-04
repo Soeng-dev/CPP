@@ -1,15 +1,16 @@
 
-NAME = zombies
+NAME = horde
 
 CC = g++
-CFLAGS = -std=c++98 -Wall -Wextra -Werror  -g -fsanitize=address
+CFLAGS = -std=c++98 -Wall -Wextra -Werror  
 
 RM = rm
 RMFLAGS = -rf
 
 SRCS_DIR = ./
 SRCS = Zombie.cpp			\
-	   main.cpp
+	   main.cpp				\
+	   zombieHorde.cpp
 
 OBJS_DIR = ./objs
 OBJS = $(addprefix $(OBJS_DIR)/, $(notdir $(SRCS:.cpp=.o)))
