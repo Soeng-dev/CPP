@@ -1,8 +1,8 @@
 #include "Human.hpp"
 
 // public
-Human::Human(std::string name_, Weapon weapon)
-    : weapon(weapon)
+Human::Human(std::string name_, Weapon &weapon)
+    : weapon(&weapon)
 {
     while (!validName(name_))
     {
@@ -13,22 +13,21 @@ Human::Human(std::string name_, Weapon weapon)
     name = name_;
 }
 
+Human::Human(std::string name_, Weapon *weapon_)
+    : weapon(weapon_), name(name_) {}
+
 Human::~Human() {}
 
-Weapon Human::getWeapon()
+void Human::setWeapon(Weapon &weapon)
 {
-    return weapon;
-}
-
-void Human::setWeapon(Weapon weapon)
-{
-    this->weapon = weapon;
+    this->weapon = &weapon;
 }
 
 void Human::attack()
 {
     if (canAttack())
-        std::cout << name << " attacks with their " << weapon.getType() << std::endl;
+        std::cout << name << " attacks with their "
+                  << weapon->getType() << std::endl;
 }
 
 // private

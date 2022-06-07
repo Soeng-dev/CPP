@@ -10,16 +10,16 @@
 class Human
 {
 public:
-    Human(std::string name, Weapon weapon);
+    Human(std::string name, Weapon &weapon);
+    Human(std::string name, Weapon *weapon_ = NULL);
     virtual ~Human();
 
-    Weapon getWeapon();
-    void setWeapon(Weapon weapon);
+    void setWeapon(Weapon &weapon);
 
     void attack();
 
 protected:
-    Weapon weapon;
+    Weapon *weapon;
 
     bool validName(std::string &name);
 

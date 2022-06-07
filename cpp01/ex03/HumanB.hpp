@@ -8,7 +8,7 @@ class HumanB : public Human
 {
 public:
     HumanB(std::string name);
-    HumanB(std::string _name, Weapon _wepon);
+    HumanB(std::string _name, Weapon &_wepon);
     ~HumanB();
 
 private:
