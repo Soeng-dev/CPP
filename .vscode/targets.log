@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun  4 18:06:20 2022
+# Make data base, printed on Thu Jun  9 19:30:16 2022
 
 # Variables
 
@@ -55,7 +55,7 @@ PATH = /home/jkl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d0dfbcf4-d07d-40ee-b6ca-c53a1dbc32d7.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d25afd95-a060-469a-b597-7efbea371046.sock
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -71,7 +71,7 @@ PWD = /mnt/c/Users/82106/42/subject/cpp
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/58_interop
+WSL_INTEROP = /run/WSL/26178_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -150,8 +150,10 @@ TERM = xterm-256color
 VSCODE_EXTHOST_WILL_SEND_SOCKET = true
 # environment
 WSL_DISTRO_NAME = Ubuntu
+# environment
+MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=69/1024=7%, Rehash=0, Collisions=4/91=4%
+# Load=70/1024=7%, Rehash=0, Collisions=4/92=4%
 
 # Pattern-specific Variable Values
 
@@ -217,6 +219,6 @@ GNUmakefile:
 # strcache performance: lookups = 17 / hit rate = 17%
 # hash-table stats:
 # Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Sat Jun  4 18:06:20 2022
+# Finished Make data base on Thu Jun  9 19:30:16 2022
 
  

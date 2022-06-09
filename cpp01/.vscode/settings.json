@@ -24,6 +24,7 @@
         "string": "cpp",
         "string_view": "cpp",
         "system_error": "cpp",
-        "typeinfo": "cpp"
+        "typeinfo": "cpp",
+        "fstream": "cpp"
     }
 }
