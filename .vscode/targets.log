@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 19:30:16 2022
+# Make data base, printed on Sat Jun 11 18:35:06 2022
 
 # Variables
 
@@ -17,7 +17,7 @@ make: *** No rule to make target 'all'.  Stop.
 # automatic
 ?F = $(notdir $?)
 # environment
-WSLENV = VSCODE_WSL_EXT_LOCATION/up
+WSLENV = VSCODE_WSL_EXT_LOCATION/up:VSCODE_SERVER_TAR/up
 # default
 .SHELLFLAGS := -c
 # environment
@@ -33,9 +33,9 @@ CURDIR := /mnt/c/Users/82106/42/subject/cpp
 # makefile
 SHELL = /bin/sh
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"738ac08552cca045871a73764b8c446f.ko","_translationsConfigFile":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/tcf.json","_cacheRoot":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko","_resolvedLanguagePackCoreLocation":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5","_corruptedFile":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ko","availableLanguages":{"*":"ko"},"_languagePackId":"738ac08552cca045871a73764b8c446f.ko","_translationsConfigFile":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/tcf.json","_cacheRoot":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko","_resolvedLanguagePackCoreLocation":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/4af164ea3a06f701fe3e89a2bcbb421d2026b68f","_corruptedFile":"/home/jkl/.vscode-server/data/clp/738ac08552cca045871a73764b8c446f.ko/corrupted.info","_languagePackSupport":true}
 # environment
-_ = /home/jkl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/node
+_ = /home/jkl/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/node
 # makefile
 MAKEFILE_LIST := 
 # 'override' directive
@@ -51,11 +51,13 @@ VSCODE_CWD = /mnt/c/Users/82106/AppData/Local/Programs/Microsoft VS Code
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
-PATH = /home/jkl/.vscode-server/bin/c3511e6c69bb39013c4a4b7b9566ec1ca73fc4d5/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/data/db/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/82106/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/82106/.dotnet/tools:/mnt/c/Users/82106/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.4/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.3.4/bin:/snap/bin
+PATH = /home/jkl/.vscode-server/bin/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/AdoptOpenJDK/jdk-11.0.11.9-hotspot/bin:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/Microsoft SQL Server/130/Tools/Binn/:/mnt/c/Program Files/Microsoft SQL Server/Client SDK/ODBC/170/Tools/Binn/:/mnt/c/data/db/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/82106/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/82106/.dotnet/tools:/mnt/c/Users/82106/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA 2020.3.4/bin:/mnt/c/Program Files/JetBrains/IntelliJ IDEA Community Edition 2020.3.4/bin:/snap/bin
 # environment
 VSCODE_LOG_STACK = false
 # environment
-VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-d25afd95-a060-469a-b597-7efbea371046.sock
+VSCODE_IPC_HOOK_CLI = /tmp/vscode-ipc-0d617fc3-6173-4747-9e18-0f91f20c1245.sock
+# environment
+VSCODE_SERVER_TAR = /mnt/c/Users/82106/AppData/Local/Temp/vscode-remote-wsl/4af164ea3a06f701fe3e89a2bcbb421d2026b68f/vscode-server-stable-linux-x64.tar.gz
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -71,7 +73,7 @@ PWD = /mnt/c/Users/82106/42/subject/cpp
 # default
 .LOADED := 
 # environment
-WSL_INTEROP = /run/WSL/26178_interop
+WSL_INTEROP = /run/WSL/12_interop
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
@@ -81,7 +83,7 @@ LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
 LOGNAME = jkl
 # environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
 # environment
 VSCODE_HANDLES_UNCAUGHT_ERRORS = true
 # automatic
@@ -153,7 +155,7 @@ WSL_DISTRO_NAME = Ubuntu
 # environment
 MOTD_SHOWN = update-motd
 # variable set hash-table stats:
-# Load=70/1024=7%, Rehash=0, Collisions=4/92=4%
+# Load=71/1024=7%, Rehash=0, Collisions=4/93=4%
 
 # Pattern-specific Variable Values
 
@@ -161,9 +163,9 @@ MOTD_SHOWN = update-motd
 
 # Directories
 
-# . (device 44, inode 14636698788996649): 6 files, no impossibilities.
+# . (device 44, inode 14636698788996649): 8 files, no impossibilities.
 
-# 6 files, no impossibilities in 1 directories.
+# 8 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -213,12 +215,12 @@ GNUmakefile:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 14 / storage = 115 B / avg = 8 B
-# current buf: size = 8162 B / used = 115 B / count = 14 / avg = 8 B
+# strcache buffers: 1 (0) / strings = 16 / storage = 130 B / avg = 8 B
+# current buf: size = 8162 B / used = 130 B / count = 16 / avg = 8 B
 
-# strcache performance: lookups = 17 / hit rate = 17%
+# strcache performance: lookups = 19 / hit rate = 15%
 # hash-table stats:
-# Load=14/8192=0%, Rehash=0, Collisions=1/17=6%
-# Finished Make data base on Thu Jun  9 19:30:16 2022
+# Load=16/8192=0%, Rehash=0, Collisions=1/19=5%
+# Finished Make data base on Sat Jun 11 18:35:06 2022
 
  
